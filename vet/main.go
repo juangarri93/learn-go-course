@@ -5,6 +5,7 @@ import(
 )
 
 func main(){
-	println(puppy.Bark())
+	println("The puppy will bark:" + puppy.Bark())
+	println("Or even super bark:" + puppy.SuperBark())
 }
 
