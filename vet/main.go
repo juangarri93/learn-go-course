@@ -29,15 +29,6 @@ func main(){
 	if rangeBarksEnabled {
 		barkRange()
 	}
-
-	puppy := puppy.Puppy {
-		Name:  "Pepe",
-		Breed: "Border collie",
-		Age: 4,
-	}
-
-	fmt.Printf("The puppy - name: %s - breed: %s - age: %d\n", puppy.Name, puppy.Breed, puppy.Age)
-	fmt.Println(puppy)
 }
 
 func parralelBarking() {
