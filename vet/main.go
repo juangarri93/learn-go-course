@@ -60,8 +60,7 @@ func parralelBarking() {
 }
 
 func barkRange() {
-	// for range loop
-	// data structures - slice
+	// For range loop -> Data structures - slice
 	xi := []string{"guf", "wof", "waf"}
 	for i, v := range xi {
 		fmt.Println("Ranging over barks", i, v)
